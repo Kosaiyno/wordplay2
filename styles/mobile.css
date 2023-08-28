@@ -1,0 +1,74 @@
+
+@media only screen and (max-width: 767px) {
+  /* Mobile-specific CSS styles go here */
+  .page-body {
+    margin-top: 80px;
+    margin-left: 7px;
+    height: 1000px;
+    width: 459px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .question-box {
+    margin-right: 30px;
+    margin-top: 20px;
+    white-space: normal;
+    width: 90%; /* Set the width to 100% */
+  }
+  
+  .question-box p {
+    font-size: 33px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    z-index: 90;
+    font-weight: bold;
+
+  }
+  
+  .answer-box {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 220px;
+    z-index: 90;
+  }
+  
+  .answer-box button {
+    width: 100%;
+    font-size: 24px;
+  }
+  
+  .animated-image-box {
+    margin-left: 150px;
+    margin-top: -30px;
+   
+    
+  }
+
+  .anime-design{
+    width:50%;
+    height: auto;
+    filter: blur(5px);
+    margin-left: 160px;
+
+  }
+  
+  .next-previous-box {
+    margin-left: -10px;
+    margin-top: 800px;
+  }
+  
+  .next-previous-box button {
+    font-size: 24px;
+  }
+  
+  .result-box{
+   margin-left: 30px;
+   margin-top: 390px; 
+  } 
+
+  .result-box p {
+    font-size: 50px;
+  }
+}

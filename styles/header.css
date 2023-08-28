@@ -1,0 +1,23 @@
+.header{
+  background-color:black;
+  height: 80px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  
+}
+
+.header p{
+  color: white;
+  font-weight: bolder;
+  font-size: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  white-space: nowrap;
+}

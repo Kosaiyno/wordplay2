@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Wordplay and Puzzle</title> 
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:wght@400;500;700&display=swap"rel="stylesheet">
+
+ <link rel="stylesheet" href="styles/header.css">
+ <link rel="stylesheet" href="styles/body.css">
+ <link rel="stylesheet" href="styles/mobile.css">
+</head>
+
+
+
+<body>
+  <div class="header">
+    <p>WORDPLAY AND PUZZLE</p>
+  </div>
+
+
+  <div class="page-body"> 
+
+     <div class="question-box">
+      <p class="question-js">
+        
+      </p>
+     </div>
+
+     <div class="answer-box">
+       <button class="answer1" onclick="
+          checkAnswers(answer1)
+          
+        "> </button>
+
+       <button class="answer2" onclick=" 
+        checkAnswers(answer2)
+         "> </button>
+
+       <button class="answer3" onclick="
+         checkAnswers(answer3)
+       "> </button>
+
+       <button class="answer4" onclick="
+         checkAnswers(answer4)
+       "> </button>
+     </div>
+
+     <div class="animated-image-box">
+       <img class="anime-design" src="anime-design.gif">
+     </div>
+
+     <div class="next-previous-box">
+
+       <button class="previous-button-js" onclick="
+         nextAndPreviousButton(previousButton)
+        ">&#60 Previous</button>
+
+       <button class="next-button-js" onclick="
+         nextAndPreviousButton(nextButton)
+       ">Next &#62</button>
+     </div>
+
+     <div class="result-box">
+       <p class="result-js"></p>
+     </div>
+
+  </div>
+
+  <script src="js/interaction.js"></script>
+</body>
+</html>
